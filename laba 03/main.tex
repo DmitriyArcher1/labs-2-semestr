@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage{gensymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\begin{document}
+
+% -- Первая страница --
+\noindent  ОБЩИЕ ЛИНЕЙНЫЕ УРАВНЕНИЯ ГИПЕРБОЛИЧЕСКОГО ТИПА
+\newline и аналогично
+
+\begin{equation*}
+\int\limits_{M}^{P} (H \, d\eta - K \, d\xi) = - (uv)_M + (uv)_P + \int\limits_{M}^{P} \left( 2 \frac{\partial v}{\partial s} - \frac{b - a}{\sqrt{2}} v \right)u ds .
+\end{equation*}
+
+\noindent Отсюда из формулы (6) следует:
+
+\begin{equation*}
+    (uv)_M = \frac{(uv)_P + (uv)_Q}{2} + \int\limits_{P}^{M}
+    \left(\frac{\partial v}{\partial s} - \frac{b - a}{2\sqrt{2}}v \right)uds + \int\limits_{Q}^{M} \left(\frac{\partial v}{\partial s} - \frac{a + b}{2\sqrt{2}}v \right)u ds +
+\end{equation*}
+
+\begin{equation*}
+    + \frac{1}{2} \int\limits_{P}^{Q} (H \, d\eta - K \, d\xi) - \frac{1}{2} \iint\limits_{MPQ} (v \mathcal{L}[u] - u \mathcal{M}[v] \, d\xi \, d\eta . 
+    \begin{flushright}
+        (8)
+    \end{flushright}
+\end{equation*}
+
+\newline Эта формула является тождеством, верным для любых достаточно гладких функций $u$ и $v$
+
+\newline Пусть $u$ - решение поставленной выше задачи с начальными условиями, а функциия $v$ зависит от точки  $M$ как от параметра и удовлетворяет следующим требованиям:
+
+\begin{equation*}
+    \mathcal{M}[v] = v_{\xi \xi} - v_{\eta \eta} - (av)_{\xi} - (bv)_{\eta} + cv = 0 \quad \text{внутри} \triangle MPQ \quad \begin{flushright}
+        (9)
+    \end{flushright}
+\end{equation*}
+
+\noindent и
+
+\begin{align*}
+\begin{cases}
+    & \frac{\partial v}{\partial s} = \frac{b - a}{2\sqrt{2}} v \quad \text{на характеристике } MP, \\
+    & \frac{\partial v}{\partial s} = \frac{b + a}{2\sqrt{2}} v \quad \text{на характеристике } MQ,
+\end{cases}
+\end{align*}
+
+\begin{center}
+v(M) = 1.    
+\end{center}
+
+
+
+
+
+\noindent Из условий на характеристиках и последнего условия находим:
+
+\begin{align*}
+    v = e^{\int\limits_{s_0}^{s} \frac{b - a}{2\sqrt{2}} ds} \quad \text{на } MP, \\
+    v = e^{\int\limits_{s_0}^{s} \frac{b + a}{2\sqrt{2}} ds} \quad \text{на } MQ, \\
+\end{align*}
+
+\noindent где $s_0$ -- значение $s$ в точке $M$. Как мы видели в $\S$ 4, уравнение (9) и значение функции $v$ на характеристиках $MP$ и $MQ$ польностью определяют её в области $MPQ$. Функцию $v$ часто называют функцией Римана.
+
+\newpage
+
+% -- Вторая страница --
+
+\newline Таким образом, формула (8) для функции $u$, удовлетворяющей уравнению (7), принимает следующий окончательный вид:
+
+\begin{equation*}
+\begin{split}
+    u(M) &= \frac{(uv)_P + (uv)_Q}{2} + \frac{1}{2} \int\limits_{P}^{Q} \left[ v(u_{\xi} d\eta + u_{\eta} d\xi) - u(v_{\xi} d\eta + v_{\eta} d\xi) + \right. \\
+    &+ \left. uv (a \, d\eta - b \, d\xi) \right] + \frac{1}{2} \iint\limits_{MPQ} v(M, M') f(M') d\sigma_{M'} \quad (d\sigma_{M'} = d\xi \, d\eta).
+\end{split}
+\begin{flushright}
+        (10)
+\end{flushright}
+\end{equation*}
+
+\noindent Эта формула решает поставленную задачу, так как выражения стоящие под знаком интеграла вдоль $PQ$, содержат функции, известные на дуге $C$. В самом деле, функция $v$ была определена выше, а функции
+
+\begin{align*}
+    u|_{C} &= \varphi(x), \\
+    u_x|_{C} &= u_s \cos(x, s) + u_n \cos(x, n) = \frac{\varphi'(x) - \psi(x) f'(x)}{\sqrt{1 + (f'(x))^2}}, \\
+    u_y|_{C} &= u_s \cos(y, s) + u_n \cos(y, n) = \frac{\varphi'(x)f'(x) + \psi(x)}{\sqrt{1 + (f'(x))^2}},
+\end{align*}
+
+\noindent вычисляются при помощи начальных данных.
+
+\newline Формула (10) показывает, что если начальные данные известны на дуге $PQ$, то они полностью определеяют функцию в характеристическом $\triangle PMQ$, если функция $f(x, y)$ известна в этой области$^1$).
+
+\newline Формула (10), полученная в предположении существования решения, определяет его через начальные данные и правую часть уравнения (7) и тем самым по существу доказывает единственность решения (ср. с формулой  Даламбера, гл. II, $\S$ 2, стр.51).
+
+\newline Можно показать, что функция $u$, определяемая формулой (10), удовлетворяет условиям задачи (7)-(7'). Однако мы на этом доказательстве не останавливаемся.
+
+\textbf{3. Физическая интерпретация функции Римана.} \noindent Выясним физический смысл функции $v(M, M').$ Для этого найдём решение неоднородного уравнения
+
+\begin{equation*}
+    \mathcal{L}[u] = -2f_1 \quad (f = 2f_1)
+\end{equation*}
+
+\noindent с нулевыми начальными условиями на кривой С. Обращаясь к формуле (10), видим, что искомое решение имеет вид
+
+\begin{equation*}
+    u(M) = \iint\limits_{MPQ} v(M, M') f_1(M') d\sigma_{M'}. 
+    \begin{flushright} 
+        (11)
+    \end{flushright}
+\end{equation*}
+ 
+
+\end{document}
