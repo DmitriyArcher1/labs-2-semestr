@@ -10,5 +10,5 @@
 | 4 | Написание статьи через LaTex. | [[Задание 4/PDF FILE](https://vk.com/doc409175474_690471221?hash=xdH9jZJkZFaiuQoZLKyHHzX1sfuzFAH6JzNxJyzopfH&dl=R7wOYUGMDm0dw92yI16Vsudc3fDW5ZUj2XT5dzNbGq4&from_module=vkmsg_desktop)]
 | 5 | Создание презентации через LaTex. | [[Задание 5](https://vk.com/doc409175474_690288591?hash=pcNFQsUXka7LUgEvdAK6zgb1VcdIob3d1gzldlmLZek&dl=KNiPG29h64QJz6MsweHGFnzZCm6bCy9HSkKtAVPBFYz&from_module=vkmsg_desktop)]
 | 6 | Tableu. | [[Задание 6](https://vk.com/doc409175474_690638829?hash=JryhMt2cuiRKJYg8LFjaBZs4r97ejTqbBeOX5dIlNto&dl=rpmZv9F64yZQS4zvX751JZwDtzG6j37vUvyQh7UE3cL&from_module=vkmsg_desktop)]
-| 7 | Tableu. | [[Задание 7]]
+| 7 | Tableu. | [[Задание 7](https://vk.com/doc409175474_690638245?hash=gXXjtzAYkjb37s0eP8oPZzBP3RQCpoxkEaFWfwlG4c4&dl=NzT7KhIMl0eV6jbyPvsPUBtK25Crx7iFsHSYZ0UX05w&from_module=vkmsg_desktop)]
 | 8 | Создание репозитория со всеми работами через систему управлением версиями Git. Размещение репозитория на GitHub. | [[Задание 8](https://github.com/oseledets/nla2021)]
