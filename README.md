@@ -4,7 +4,7 @@
 
 | № Работы | Содержание работы | Дополнительные материалы |
 |:------:|:----------|:----------:|
-| 1 | Распределение задач в команде через сервис Kaiten. | [[Задание 1](https://clck.ru/3MPqDw)]
+| 1 | Распределение задач в команде через сервис Kaiten. | [[Задание 1](https://clck.ru/3MYBWZ)]
 | 2 | Создание дорожной карты в сервисе Xmind. | [[Задание 2](https://clck.ru/3MPqKi)]
 | 3 | Написание страниц из учебника через LaTex. | [[Задание 3](https://vk.com/doc409175474_689713844?hash=aG7DKPaoRd7RIZNyHztANa9tZnnzsw0zjC0nOIkqrTz&dl=KD4hhBiQ0RI62N85pzAhYJPnskiTKxkjpf58CCYEcrD&from_module=vkmsg_desktop)]; [[PDF FILE](https://vk.com/doc409175474_689713875?hash=VOuKEQvNMWRGX7IlarVuDS273qms7Tj6vMlmrXSmwv4&dl=K3sZ0j0GB7a2P4cN8HRDFQbBE80ZHIBnTPVazdT8eTH&from_module=vkmsg_desktop)]
 | 4 | Написание статьи через LaTex. | [[Задание 4](https://vk.com/doc409175474_690471221?hash=xdH9jZJkZFaiuQoZLKyHHzX1sfuzFAH6JzNxJyzopfH&dl=R7wOYUGMDm0dw92yI16Vsudc3fDW5ZUj2XT5dzNbGq4&from_module=vkmsg_desktop)]
